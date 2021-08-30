@@ -1,0 +1,50 @@
+.searchico{
+    font-size: 40px;
+}
+
+.searchpooper{
+    width: 58vw !important;
+}.searchico {
+    width: 100%;
+    text-align: end;
+}.searchicofont{
+    font-size: 25px;
+    align-items: stretch !important;
+    padding-right: 15px;
+    color :#B6AFAF ;
+    text-decoration: none;
+}.listAPPointmentItem{
+    font-size: 20px;
+    text-align: start;
+    display : flex;
+    padding: 20px;
+}.item{
+    align-items: center;
+    padding-top: 3px;
+}.quant{
+    border-left : 1px solid #cfcfcf;
+    border-right : 1px solid #cfcfcf;
+    text-align: center;
+}.quanticofont{
+    text-align: center;
+}.AppointmentmentPrice{
+    text-align: center;
+}
+.btnnbj{
+    width: 50px !important;
+    padding-bottom: 30px !important;
+}.hhhh{
+    margin: auto;
+}
+.emm{
+    font-size: 25px;
+    margin: 25px;
+    padding: 20px;
+    border-radius: 50%;
+    color: white;
+    background-color: #9999FF;
+    transition: .5s;
+}.emm:hover{
+    color : #9999FF;
+    background-color: #fff;
+}

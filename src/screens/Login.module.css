@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 64px;
+    height: calc(100vh - 64px);
+    width: 100vw;
+}
+
+.appBar {
+    height: 65px;
+    width: 100%;
+}
+
+.cardContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 10vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    width: 350px;
+}
+
+.card {
+    margin-right: 30px;
+}
+

@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@500&display=swap');
+
+.icons{
+    text-align: center;
+    align-items: center;
+}.card1 {
+    background-color:rgb(247, 186, 237)!important;
+    height: 300px;
+    margin: 10px;   
+}
+
+.card1:hover{
+    color: white;
+    font-size: 30px !important;
+}
+
+.card2 {
+    background-color: rgb(157, 215, 225)!important ;
+    height: 300px;
+    margin: 10px;
+}.didd{
+    display: block;
+}
+
+.card2:hover{
+    color: white;
+    font-size: 30px !important;
+}
+.card3 {
+    background-color:rgb(242, 200, 141)    !important;
+    height: 300px;
+    margin: 10px;   
+}
+.card3:hover{
+    color: white;
+    font-size: 30px !important;
+}
+.btnSettingLogo{
+   text-align: center;
+}.logo{
+    align-items: center !important;
+    height: 100% !important;
+    font-size: 25px !important;
+    color : #867777 !important;
+    transition: .5s;
+}.logo:hover{
+    background-color: transparent !important;
+}.btnSettingLogo:hover{
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+.add{
+    background-color: #7d089b;
+    border-radius: 10px;
+    transition: .5s !important;
+    font-size: 25px;
+    height: 35px;
+    text-align: center;
+    align-items: center;
+    margin-top: 22px;
+}
+.addp{
+    color: white;
+}
+.stat{
+    text-align: center;
+    align-items: center;
+    font-size: 100px;
+    display: block;
+}
+
+.Linkstat{
+    display: none !important; 
+    text-decoration: none;
+    color: #867777;
+    font-size: 20px;
+    transition: .5s !important;
+    padding: 0 15px;
+}.stat i {
+    padding:  10px;
+}
+.icons:hover> .card3  .Linkstat{
+    border-radius: 20px;
+    display: block !important;
+    background-color: #fff;
+    color: #f2c88d !important;
+    border: 1px solid #fff !important;
+
+}
+.icons:hover> .card2  .Linkstat{
+    border-radius: 20px;
+    display: block !important;
+    background-color: #fff;
+    color: #9dd7e1 !important;
+    border: 1px solid #fff !important;
+
+}
+
+.icons:hover> .card1  .Linkstat{
+    border-radius: 20px;
+    display: block !important;
+    background-color: #fff;
+    color:  #f7baed !important;
+    border: 1px solid #fff !important;
+
+}
+
+.stocstat{
+   font-size: 100px !important;
+}
+
+.laappo{
+height: 60px;
+margin-bottom: 20px;
+align-items: center !important;
+text-align: center !important;
+}.statisticTitle{
+    font-family: 'Azeret Mono', monospace !important;
+    font-size: 15px !important;
+}.icons1{
+    color: rgb(252, 233, 249);
+    font-size: 100px;
+    margin: 40px;
+}.icons2{
+    color:rgb(216, 239, 243);
+    font-size: 100px;
+    margin: 40px;
+}.icons3{
+    color: rgb(247, 222, 186);
+    font-size: 100px;
+    margin: 40px;
+}.statisticTitle{
+    margin-top: 20px;
+}
+.lastname{
+    color: #585151;
+}
+.drop{
+    margin-left:50%;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }

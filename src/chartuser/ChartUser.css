@@ -1,0 +1,10 @@
+.char{
+    height: 500px !important;
+    width: 500px !important;
+    margin: 40px;
+    
+}
+.card{
+    background-color: rgb(252, 249, 249) !important;
+}
+
